@@ -8,5 +8,5 @@ CREATE TABLE company.users (
     role varchar(255)
 );
 INSERT INTO company.users (id,username,password,role) VALUES (1,'admin','SuperSecret1!','administrator');
-INSERT INTO company.users (id,username,password,role) VALUES (1,'daniel','Password123','user');
+INSERT INTO company.users (id,username,password,role) VALUES (2,'daniel','Password123','user');
 MYSQL_SCRIPT
