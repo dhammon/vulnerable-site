@@ -23,7 +23,7 @@ Start the container:
 
 Configure the database (wait 2 minutes after starting the container):
 
-`docker exec vulnerable-site /app/db.sh`
+`docker exec vulnerable-site /bin/bash /app/db.sh`
 
 
 # Troubleshooting
