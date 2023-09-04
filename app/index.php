@@ -8,7 +8,7 @@ if(isset($_GET['username']) && isset($_GET['password'])) {
     if(mysqli_num_rows($result) == 0) {
         echo "Wrong username/password";
     } else {
-        $_SESSION['logged_in'] == 1;
+        $_SESSION['logged_in'] = 1;
         $row = mysqli_fetch_assoc($result);
         $role = $row['role'];
         setcookie("role", $role);
